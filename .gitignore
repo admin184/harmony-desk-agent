@@ -1,0 +1,33 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+.hvigor/
+
+# IDE files
+.idea/
+.vscode/
